@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.title h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.section {
+    width: 30%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+input[type="range"] {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* Sección verde con el color correcto de la bandera de México */
+#greenBox {
+    background-color: #006747; /* Verde bandera de México */
+}
+
+/* Sección blanca */
+#whiteBox {
+    background-color: #FFFFFF;
+}
+
+/* Sección roja */
+#redBox {
+    background-color: #9D0000; /* Rojo bandera de México */
+}
